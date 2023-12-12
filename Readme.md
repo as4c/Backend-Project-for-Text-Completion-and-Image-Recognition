@@ -9,21 +9,21 @@ This Django project includes several API endpoints for user registration, login,
 ### Endpoints
 
 #### User Registration
-- **Endpoint:** `/register/`
+- **Endpoint:** `api/user/register/`
 - **Description:** Register a new user.
 - **Usage:** `POST` request to register a user.
 - **Request:** `username`,`email`, `password`
 - **Response:** `token`
 
 #### User Login
-- **Endpoint:** `/login/`
+- **Endpoint:** `api/user/login/`
 - **Description:** Login with registered credentials.
 - **Usage:** `POST` request to authenticate and log in.
 - **Request:** `username`,`password`
 - **Response:** `token`
 
 #### Generate Product Description
-- **Endpoint:** `/generate-product-description/`
+- **Endpoint:** `api/generate-product-description/`
 - **Description:** Generate detailed product descriptions using the OpenAI API.
 - **Usage:** `POST` request with the product title to receive a generated product description.
 - **Request:** `product_title`
@@ -31,7 +31,7 @@ This Django project includes several API endpoints for user registration, login,
 
 
 #### Image Keyword Extraction
-- **Endpoint:** `/image-keyword/`
+- **Endpoint:** `api/image-keyword/`
 - **Description:** Extract keywords from uploaded images using Keras OCR.
 - **Usage:** `POST` request to upload an image and receive extracted keywords.
 - **Request:** `image`
@@ -46,8 +46,38 @@ This Django project includes several API endpoints for user registration, login,
 
 ## Getting Started
 
-1. Clone the repository.
+1. Create your environment.
+    
+    ```
+    python -m venv env
+    ```
+2. Activate your environment.
+    **in linux/macos**
+    ```
+    source env/bin/activate
+    ```
+
+    **in windows**
+    ```
+    source env/scripts/activate
+    ```
+
+3. Clone the repository.
    ```bash
    git clone https://github.com/your-username/Backend-Project-for-Text-Completion-and-Image-Recognition.git
+   ```
 
-2. 
+4. Install Dependencies.
+    ```
+    pip install -r requirements.txt
+    ```
+
+5. Generate your OpenAi api key
+
+6. Run the project.
+
+    ```
+    python manage.py runserver
+    ```
+
+7. Open Postman and test the endpoints.
