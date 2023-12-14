@@ -81,3 +81,10 @@ This Django project includes several API endpoints for user registration, login,
     ```
 
 7. Open Postman and test the endpoints.
+
+8. Screenshot ![Screenshot from 2023-12-13 04-09-32](https://github.com/as4c/Backend-Project-for-Text-Completion-and-Image-Recognition/assets/84590258/d36ab649-f935-4a68-a468-4f8b3fa1426d)![Screenshot from 2023-12-13 04-10-06](https://github.com/as4c/Backend-Project-for-Text-Completion-and-Image-Recognition/assets/84590258/02862dcb-8759-4811-91a6-6be7e784262d)![Screenshot from 2023-12-13 04-11-10](https://github.com/as4c/Backend-Project-for-Text-Completion-and-Image-Recognition/assets/84590258/17328861-95db-48e7-bf0e-957f6628eeb0)![Screenshot from 2023-12-13 04-11-37](https://github.com/as4c/Backend-Project-for-Text-Completion-and-Image-Recognition/assets/84590258/d34aaad1-6237-492a-85da-71c6576b398b)
+
+
+
+ts
+   
